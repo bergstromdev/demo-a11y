@@ -13,6 +13,7 @@ const Header = styled.header`
   position: fixed;
   inset: 0 0 auto;
   z-index: 200;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 `;
 
 const NavbarContent = styled.nav`
@@ -59,6 +60,7 @@ export const Navbar = () => {
             viewBox="0 0 97 48"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
+            // aria-hidden="true"
           >
             <path
               d="M3.02,14.5c1.07-2.08,2.53-3.68,4.37-4.8c1.84-1.12,3.9-1.68,6.17-1.68c1.98,0,3.72,0.4,5.21,1.2
@@ -70,11 +72,11 @@ export const Navbar = () => {
               fill="currentColor"
             />
             <path
-              fill="#39B54A"
+              fill="#367262"
               d="M34.1,6.25V0.06h11.57v34.99h-6.91V6.25H34.1z"
             />
             <path
-              fill="#39B54A"
+              fill="#367262"
               d="M51.47,6.25V0.06h11.57v34.99h-6.91V6.25H51.47z"
             />
             <path

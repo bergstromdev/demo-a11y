@@ -3,6 +3,7 @@ import Head from 'next/head';
 import { Cards } from '../components/Cards';
 import { CheckboxGroup } from '../components/CheckboxGroup';
 import { IconButtons } from '../components/IconButtons';
+import { PageSection } from '../components/PageSection';
 import { RadioGroup } from '../components/RadioButtonGroup';
 
 const Home: NextPage = () => {
@@ -14,6 +15,17 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <h1>Accessibility</h1>
+      <PageSection aria-labelledby="section-skip-links-label">
+        <h2 id="section-skip-links-label">Skip links</h2>
+        <p>
+          Användare som använder tangentbordsnavigering och skärmläsare kan ha
+          problemet med att behöva tabba igenom hela menyn för att komma till
+          innehållet på varje sida.
+        </p>
+        <p>
+          Det finns en lösning på det som kallas <strong>skip links</strong>.
+        </p>
+      </PageSection>
       <h2>Markup spelar roll</h2>
       <RadioGroup />
       <CheckboxGroup />

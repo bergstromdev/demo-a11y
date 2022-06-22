@@ -50,7 +50,7 @@ export const Cards = () => {
     <PageSection>
       <h3>Exempel: Cards</h3>
       <p>Cards är ett populärt sätt att visa en lista av produkter.</p>
-      <Container>
+      <Container aria-label="cocktails">
         {cocktails.map((cocktail) => (
           <Card key={cocktail.id} cocktail={cocktail} />
         ))}

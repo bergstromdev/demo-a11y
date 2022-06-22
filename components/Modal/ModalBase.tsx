@@ -1,5 +1,5 @@
 import FocusTrap from 'focus-trap-react';
-import { SyntheticEvent, useCallback, useEffect } from 'react';
+import { useCallback, useEffect } from 'react';
 import styled from 'styled-components';
 import { CloseButton } from './CloseButton';
 import Portal from './Portal';

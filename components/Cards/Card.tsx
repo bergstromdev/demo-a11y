@@ -70,10 +70,10 @@ export const Card = ({
   cocktail: { title, excerpt, imageUrl, productUrl },
 }: Props) => {
   return (
-    <CardContainer>
+    <CardContainer aria-labelledby="card-title">
       <CardImage url={imageUrl} />
       <CardContent>
-        <CardTitle>{title}</CardTitle>
+        <CardTitle id="card-title">{title}</CardTitle>
         <Excerpt>{excerpt}</Excerpt>
         <LinkContainer>
           <Link href={productUrl} passHref>

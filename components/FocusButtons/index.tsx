@@ -29,14 +29,14 @@ const ButtonWithoutFocus = styled(ButtonBase)`
 
 const ButtonFocus = styled(ButtonBase)`
   &:focus {
-    outline: 2px solid #39b54a;
+    outline: 2px solid #367262;
     outline-offset: 2px;
   }
 `;
 
 export const ButtonFocusVisible = styled(ButtonBase)`
   &:focus-visible {
-    outline: 2px solid #39b54a;
+    outline: 2px solid #367262;
     outline-offset: 2px;
   }
 `;
